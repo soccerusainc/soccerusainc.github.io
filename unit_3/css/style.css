@@ -1,0 +1,30 @@
+
+body {
+	text-align: left;
+	color: rgb(0,0,0);
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	background: url("../images/soccerfield2.png");
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(0,0,0);
+	font-size: 150px;
+	text-transform: uppercase;
+}
+
+#slogan {
+	text-align: center;
+	font-weight: bold;
+	font-size: 75px;
+	font-style: italic;
+	color: rgb(65, 105,225);
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
