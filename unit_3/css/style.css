@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Quattrocento');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans|Roboto');
+
 
 body {
+	font-family: 'Open Sans', 'Nunito Sans', 'Roboto', sans-serif;
 	text-align: left;
 	color: rgb(0,0,0);
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
+	font-size: 25px;
+	line-height: 1em;
 	background: url("../images/soccerfield2.png");
 	background-size: cover;
 }
 
 h1 {
+	font-family: 'Alfa Slab One', cursive;
 	text-align: center;
 	color: rgb(0,0,0);
 	font-size: 150px;
@@ -16,12 +23,14 @@ h1 {
 }
 
 #slogan {
+	font-family: 'Quattrocento', serif;
 	text-align: center;
 	font-weight: bold;
-	font-size: 75px;
+	font-size: 95px;
 	font-style: italic;
-	color: rgb(65, 105,225);
+	color: rgb(255, 255,0);
 }
+
 
 img {
 	display: block;
