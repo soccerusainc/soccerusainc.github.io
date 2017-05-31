@@ -37,3 +37,12 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+span:nth-of-type(3n+1)  {
+	color:red;
+}
+span:nth-of-type(3n+2) {
+	color:white;
+}
+span:nth-of-type(3n+3) {
+	color:blue;
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans'); 
+
+
+* {
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #EE89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div, section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+/*body {
+	background-color: #002868;
+	font-size: 20px; 1em = 20px; 16px should be the smallest font size you use
+	text-align: center;
+	position: relative;
+	width: 60em;
+	margin: auto auto;
+}
+*/
+/*header {
+	background: url("../images/stars.jpg");
+	background-size: cover;
+	color: #ffffff;
+	border: #ff0000;
+	padding: 0 25em;
+}
+
+nav{
+	margin: auto;
+}
+
+main {
+	background-color: #F1E9E4;
+
+	color: #3C3C3C;
+	padding: 50px 0;
+}
+
+section {
+	margin: 2em auto;
+	padding: 50px 0;
+}
+
+footer{
+	background: url("../images/soccerfield2.png");
+	background-size: cover;
+	color: :3C3C3C;
+	padding: 50px 0;
+}
+
+h1 {
+	font-familY: 'Crete+Round', serif;
+	font-weight: normal;
+	font-size: 3em;
+	text-align: center;
+	color: #fff;
+	margin: 10em 0 0;
+	background-color: #002868;  /*go to color.adobe.com to find colors you want*/ /*very dark blue; color on flag*/
+/*}
+
+h2, h3, h4 {
+	font-family: 'Allerta', 'Arial', sans-serif;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2.25em;
+}
+
+h4 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+hr{
+	border: none;
+	height: 3px;
+	background-color: #3C3C3C;
+	width: 2em;
+	margin: 1em auto;
+}
+
+p{
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	width: 30em; you always want to limit your line text to 45-90 characters.  Multiply your font-size in <body> x 30 to get your idea width.  For this example, 1em = 20px.  30em = 600px
+	line-height: 1.5em; /*always have a line-height in your paragraph section.  Good rule of thumb is 1.5 times your font size.  Again, use em's
+}*/
+
+/*a {
+	color: #000; /*this inherits the color of the parent element of the anchor*/
+/*	text-decoration: none; this takes away the underline
+	border-bottom: 1px solid #000; /*this adds a bottom border for your links*/
+/*	padding-bottom: 2px;*/
+/*}
+
+img {
+	width: 100%;
+	padding: none;
+}
+
+.navlinks{
+	font-family: 'Allerta', 'Arial', sans-serif;
+	background-color: #ff0000;
+	color: #fff;
+	border: 3px solid white;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 1em;
+	margin: 0 1em;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+.products{
+	width: 30em;
+	margin: 2em auto;
+	border: none;
+	background-color: orange;
+}
+
+.lander {
+	background-color: #395D33;
+	padding: 20px 0;
+}
+
+nav a {
+	font-family: 'Allerta', 'Arial', sans-serif;
+	color: #ff0000;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 20px;
+	margin: 0 20px;
+	border: none;
+}*/
