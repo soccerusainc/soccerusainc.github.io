@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans'); 
+
+
+* {
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #FFC680;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+p {
+	
+}
+
+div, section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#search {
+	padding: 1em 4em 1em 1em;
+	border: 1px black solid;
+	width: 24em;
+	text-align: left;
+	background: #fff;
+	color: #000;
+	float: right;
+}
+
+#wrapper {
+	width: 1080px;
+	background-color: #ccc;
+}
+
+#two column {
+	background-color: #FFB7Cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 2% 0;
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 2% 0;
+	display: inline-block;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+

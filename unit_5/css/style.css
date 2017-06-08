@@ -43,6 +43,25 @@ div, section {
 	padding: 20px;
 }
 
+#search {
+	padding: 1em 4em 1em 1em;
+	border: 1px black solid;
+	width: 24em;
+	text-align: left;
+	background: #fff;
+	color: #000;
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 /*body {
 	background-color: #002868;
 	font-size: 20px; 1em = 20px; 16px should be the smallest font size you use
