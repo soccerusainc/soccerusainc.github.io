@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://wireframe.cc/hMzs9o -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <meta name="Robots" content="noindex follow">
+<title>Wireframe.cc - minimal wireframing tool</title><meta name="description" content="A simple wireframing tool that doesn&#39;t get in your way. Create and share simple wireframes of websites and mobile apps.">
+<link href="./wireframe_files/css" rel="stylesheet" type="text/css">
+  <link href="./wireframe_files/css(1)" rel="stylesheet">
+
+<link rel="stylesheet" href="./wireframe_files/style.2.6.4.min.css" type="text/css">
+
+<meta property="og:title" content="Wireframe.cc - minimal wireframing tool">
+<meta property="og:image" content="https://wireframe.cc/images/screen-shot-landing.png">
+<meta property="og:site_name" content="Wireframe.cc">
+<meta property="og:description" content="A simple wireframing tool that doesn&#39;t get in your way. Create and share simple wireframes of websites and mobile apps.">
+
+
+<script type="text/javascript" defer="" async="" src="./wireframe_files/piwik.js.download"></script><script type="text/javascript" async="" src="./wireframe_files/amplitude-2.2.0-min.gz.js.download"></script><script type="text/javascript" nonce="06683a9c056ef67608f713aa89ea65a3">
+  (function(e,t){var r=e.amplitude||{};var n=t.createElement("script");n.type="text/javascript";
+  n.async=true;n.src="https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-2.2.0-min.gz.js";
+  var s=t.getElementsByTagName("script")[0];s.parentNode.insertBefore(n,s);r._q=[];
+  function a(e){r[e]=function(){r._q.push([e].concat(Array.prototype.slice.call(arguments,0)));
+  }}var i=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties"];
+  for(var o=0;o<i.length;o++){a(i[o])}e.amplitude=r})(window,document);
+
+  amplitude.init("2ab562049cb052295cac5da26f465406");
+</script>
+
+
+
+<meta http-equiv="Content-Security-Policy" content="script-src https: &#39;unsafe-eval&#39;;"></head>
+
+
+<body class="" style="cursor: auto;">
+
+<script nonce="06683a9c056ef67608f713aa89ea65a3">
+  if (localStorage.getItem("about-closed") !== null){
+    var body = document.getElementsByTagName( "body" );
+    body[0].classList.remove("show-about");
+  }
+</script>
+
+  <div id="about-overlay"></div>
+<div id="about-wrap" class="ps-container ps-theme-default ps-active-y" data-ps-id="ffc4a723-3eba-a7b1-8a93-a8bbb83960e7">
+    <span class="closeabout"><i class="icon-remove-sign"></i></span>
+  <div id="about" class="panel">
+    <div class="innerpanelwrap">
+      <div class="left" id="h2h4">
+        <h1>A better wireframing experience</h1>
+        <h4><span class="blocktext">with a simple app that doesn't get in your way</span></h4>
+      </div>
+      <div class="feux-canvas">
+        <div id="feux-play">
+          <svg width="100%" height="100%" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path d="M40,-1.77636e-15c22.0914,0 40,17.9086 40,40c0,22.0914 -17.9086,40 -40,40c-22.0914,0 -40,-17.9086 -40,-40c0,-22.0914 17.9086,-40 40,-40ZM40,6.12296c18.7098,0 33.877,15.1673 33.877,33.877c0,18.7098 -15.1673,33.877 -33.877,33.877c-18.7098,0 -33.877,-15.1673 -33.877,-33.877c0,-18.7098 15.1673,-33.877 33.877,-33.877ZM55.4528,37.1551c0.870171,0.543529 1.40224,1.49405 1.41059,2.51999c0.00835632,1.02594 -0.508155,1.985 -1.36936,2.54263c-5.57691,3.6111 -15.7244,10.1817 -21.6436,14.0145c-0.922657,0.597428 -2.09816,0.642432 -3.06379,0.117298c-0.965634,-0.525135 -1.56676,-1.53631 -1.56676,-2.6355c-1.16955e-11,-7.34235 -1.16955e-11,-20.2449 -1.17097e-11,-27.5335c-1.41999e-06,-1.09043 0.59167,-2.09499 1.54533,-2.62373c0.953663,-0.528737 2.11913,-0.498376 3.04397,0.0792966c5.89873,3.68447 16.045,10.0221 21.6436,13.5191l2e-05,-8.46e-05Z"></path></svg>
+          <span class="watch-text">Watch demo</span>
+        </div>
+        <span class="f-c"></span>
+        <span class="f-c"></span>
+        <span class="f-c"></span>
+        <span class="f-i"></span>
+        <svg id="feux-svg-grid" zoomAndPan="disable" currentscale="2" xmlns="http://www.w3.org/2000/svg" version="1.2" width="1024" height="268"><pattern id="feux-grid-pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><g id="sharp" transform="translate(-0.5,-0.5)"><line class="lineH" x1="0" x2="100" y1="20" y2="20" stroke="#eee" stroke-width="1"></line><line class="lineH" x1="0" x2="100" y1="40" y2="40" stroke="#eee" stroke-width="1"></line><line class="lineH" x1="0" x2="100" y1="60" y2="60" stroke="#eee" stroke-width="1"></line><line class="lineH" x1="0" x2="100" y1="80" y2="80" stroke="#eee" stroke-width="1"></line><line class="lineV" x1="20" x2="20" y1="0" y2="100" stroke="#eee" stroke-width="1"></line><line class="lineV" x1="40" x2="40" y1="0" y2="100" stroke="#eee" stroke-width="1"></line><line class="lineV" x1="60" x2="60" y1="0" y2="100" stroke="#eee" stroke-width="1"></line><line class="lineV" x1="80" x2="80" y1="0" y2="100" stroke="#eee" stroke-width="1"></line><line class="lineV" x1="100" x2="100" y1="0" y2="100" stroke="#e1e1e1" stroke-width="1"></line><line class="lineH" x1="0" x2="100" y1="100" y2="100" stroke="#e1e1e1" stroke-width="1"></line></g></pattern><rect id="grid" fill="url(#feux-grid-pattern)" width="1024" height="268"></rect></svg>
+
+        <div class="demowrap">
+          <div class=" demo">
+
+            <div id="cursor"></div>
+            <div id="d1">
+              <div class="cursor bottomcorner"></div>
+             
+            </div>
+          
+            <div class="feux-wirepanel">
+              <div class="draw-icons">
+
+                <div class="icon rect horizontal vertical highlightable" elementtype="box" title="Box"></div>
+                <div class="icon rect horizontal vertical highlightable" elementtype="roundbox" title="Rounded Box"></div>
+                <div class="icon rect highlightable" elementtype="elipse" title="Ellipse/Circle" style="display: none;"></div>
+                <div class="icon rect highlightable" elementtype="image" title="Image" style="display: none;"><i class="icon-picture"></i></div>
+                <div class="icon rect highlightable" elementtype="paragraph" title="Paragraph" style="display: none;"><i class="icon-align-left"></i></div>
+                <div class="icon rect highlightable" elementtype="list" title="List" style="display: none;"><i class="icon-list"></i></div>
+                <div class="icon rect horizontal highlightable" elementtype="headline" title="Headline" style="display: none;">H</div>
+                <div class="icon rect horizontal highlightable" elementtype="headlinetxt" title="Text" style="display: none;">T</div>
+                <div id="textinput" class="icon horizontal rect highlightable" elementtype="textinput" title="Text input" style="display: none;"></div>
+                <div id="annotate" class="icon horizontal rect vertical highlightable" elementtype="annotate" title="Add annotation" style="margin-top: -2px; display: block;"><i class="icon-comments-alt"></i></div>
+              </div>
+              <div class="edit-icons">
+                <div id="strokes" style="display: block;">
+                  <div class="stroke_width strokeweight highlightable" title="Stroke width: thin" stroke="1"><span class="line onepx "></span></div>
+                  <div class="stroke_width strokeweight highlightable" title="Stroke width: medium" stroke="2"><span class="line twopx "></span></div>
+                  <div class="stroke_width strokeweight highlightable" title="Stroke width: thick" stroke="4"><span class="line fourpx "></span></div>
+                </div>
+                <div>
+
+
+                  <div class="show-border">
+                    <span></span>
+                  </div>
+
+                  <div class="colorpickers">
+                   <div class="cpicker  nocolor" style="background:transparent;" title="Transparent"></div>
+                   <div class="cpicker rect" style="background:rgb(255,255,255);" title="Fill color: white"></div>
+                   <div class="cpicker rect" style="background:rgb(221,221,221);" title="Fill color: #ddd"></div>
+                   <div class="cpicker rect" style="background:rgb(170,170,170);" title="Fill color: #aaa"></div>
+                   <div class="cpicker rect" style="background:rgb(119,119,119);" title="Fill color: #777"></div>
+                   <div class="cpicker rect" style="background:rgb(68,68,68);" title="Fill color: #444"></div>
+                   <div class="cpicker rect" style="background:rgb(17,17,17);" title="Fill color: #111"></div>
+                   <div class="cpicker rect" style="background:tomato;" title="Fill color: tomato"></div>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+     </div>
+
+          
+     <div class="panel-inner">
+      <article>
+
+        <h3>Super-minimal interface</h3>
+        <img src="./wireframe_files/lp-ui.svg" alt="Minimal ui">
+        <p>Wireframe.cc offers a clutter-free environment instead of countless toolbars and icons that we all know from other tools and apps. You can now focus on your ideas and easily sketch them before they fade away.</p>
+        <h3>Click and drag to draw</h3>
+        <img src="./wireframe_files/lp-draw.svg" alt="Click and drag to draw">
+        <p>Creating elements of your wireframe couldn't be easier. All you have to do is draw a rectangle on the canvas and select the stencil type that will be inserted there. You can do that by dragging your mouse across the canvas and selecting an option from a pop-up menu. If you need to edit anything just double-click it.</p>
+        <h3>Limited palette</h3>
+        <img src="./wireframe_files/lp-palette.svg" alt="Limited palette" style="opacity:.8;">
+        <p>Wireframe.cc can help you keep your wireframes simple by offering a very limited palette of options. That applies to color palette and the number of stencils that you can choose from. This way the essence of your idea will never be lost in unnecessary decorations and fancy styles. Instead you will get a wireframe with a clarity of a hand-drawn sketch.</p>
+
+        <h3>Context sensitive UI</h3>
+        <img src="./wireframe_files/lp-smart.svg" alt="Smart suggestions">
+
+        <p>Most parts of the UI are presented to you only when you need them. It is possible due to the unique drawing mechanism. The list of stencil elements is only available just before inserting an element. Even then the pop-up menu will contain only icons of the elements that can take this shape.
+        </p><p>The same goes for editing - you are presented only with options that are applicable for a given element. That means different icons in a toolbar for editing a paragraph and different for a simple rectangle.</p>
+
+        <h3>Wireframe websites and mobile apps</h3>
+        <img src="./wireframe_files/lp-devices.svg" alt="Devices">
+
+        <p>You can choose from three templates: a browser window, a tablet and a mobile phone. The mobile devices come in vertical and landscape orientations. To switch between the templates you can use the icon in the top left corner.</p>
+
+        <h3>Annotate with ease</h3>
+        <img src="./wireframe_files/lp-annotate.svg" alt="Annotations">
+
+        <p>If you want to be sure that your message gets through you can always annotate your wireframe. Annotations are created the same way as any other objects on the canvas and they can be turned on and off.</p>
+
+
+
+        <h3 class="bt">Free &amp; Premium versions available</h3>
+
+        <div id="compare">
+
+          <div class="left free-card">
+            <h4>Free version</h4>
+            <ul>
+             <li>No user accounts</li>
+             <li>Public wireframes</li>
+             <li>Single-page wireframes</li>
+           </ul>
+         </div>
+         <div class="right premium-card">
+           <h4>Premium version</h4>
+           <ul>
+             <li>Your private account</li>
+             <li>Private wireframes</li>
+             <li>Multi-paged wireframes</li>
+             <li>Clickable elements</li>
+             <li>Export to PDF &amp; PNG</li>
+             <li>Revisions</li>
+           </ul>
+         </div>   
+
+       </div>
+       <p>A basic version of the app is available for free. In the free version each wireframe that you save gets a unique URL that you can bookmark or share. The Premium version separates the editor and the preview mode. It offers a private dashboard with all your projects and shareable links that can be used for previewing but not editing.
+       </p>
+
+       <h5>Premium version pricing</h5>
+
+       <div class="plans" id="pricing">
+
+
+        <div class="price-col">
+          <div class="planname">Solo</div>
+          <div class="pricewrap">
+            <span class="dolar">$</span><span class="price">15</span><span class="amonth dolar">/month</span>
+          </div>
+          <span class="yearly dolar">or $<b>120</b>/year</span>
+          <ul>
+            <li><b>1</b> user</li>
+            <li><b>Unlimited</b> projects</li>
+            <li><b>Unlimited</b> revisions</li>
+            <li>PDF/PNG export</li>
+            <li>your own logo</li>
+          </ul>
+
+        </div>
+
+        <div class="price-col">
+          <div class="planname">Trio</div>
+          <div class="pricewrap">
+            <span class="dolar">$</span><span class="price">39</span><span class="amonth dolar ">/month</span>
+          </div>
+          <span class="yearly dolar">or $<b>390</b>/year</span>
+          <ul>
+            <li><b>3</b> users</li>
+            <li><b>Unlimited</b> projects</li>
+            <li><b>Unlimited</b> revisions</li>
+            <li>PDF/PNG export</li>
+            <li>your own logo</li>
+          </ul>
+
+        </div>
+
+        <div class="price-col">
+          <div class="planname">Enterprise</div>
+          <div class="pricewrap">
+            <span class="dolar">$</span><span class="price">99</span><span class="amonth dolar">/month</span>
+          </div>
+          <span class="yearly dolar">or $<b>990</b>/year</span>
+          <ul>
+            <li><b>Unlimited</b> users</li>
+            <li><b>Unlimited</b> projects</li>
+            <li><b>Unlimited</b> revisions</li>
+            <li>PDF/PNG export</li>
+            <li>your own logo</li>
+          </ul>
+
+        </div>
+        <!-- <span class="discl"> * There may occur additional VAT charges for clients in EU. You get 2 months free when billed annually.</span> -->
+      </div>
+
+     
+
+      <h4 class="featured-by">Featured By:</h4>
+      <img src="./wireframe_files/featuredby.jpg" alt="Logos" class="press-logos">
+
+      <div class="sign-up-card">
+        <h3>Start your 7 day free trial</h3>
+
+        <form method="post" action="https://wireframe.cc/pro/ps/register.php" class="sign-up-form">
+          <label>Username:</label>
+          <input type="text" name="username">
+
+          <label>Email: </label>
+          <input type="text" name="email">
+
+          <label>Password:</label>
+          <input type="password" name="password">
+
+
+
+          <br>
+
+          <input type="submit" value="Start my trial" class="transit">
+        </form>
+
+        <div class="btn-signup"></div>
+      </div>
+        
+<div id="qa-wrap">
+  <input type="Checkbox" id="qa-toggle">
+  <label for="qa-toggle">FAQ</label>
+  <div class="qa" id="qa">
+   <div class="qacol">
+     <div class="qawrap">
+       <p class="q">How does the free trial work?</p>
+       <p class="a">When you sign up you’ll get a free, unlimited access to all features of Wireframe.cc Premium. After 7 days you will be asked to pick a paid plan that works for you. Your projects will not be deleted even if you fail to do that - you can come back any time.</p>
+     </div>
+     <div class="qawrap">
+  
+       <p class="q">Can I change plans or cancel my subscription?</p>
+       <p class="a">Yes you can easily upgrade, downgrade or cancel your plan at any time. There is no contract nor long term obligation. If you cancel you will not be billed again. </p>
+     </div>  
+     <div class="qawrap"> 
+     <p class="q">Is my data safe?</p>
+     <p class="a">All data is backed up daily and stored in multiple locations. All plans come with SSL encryption. Your projects can only be edited by you or your team.</p>
+     </div>
+   </div>
+  
+   <div class="qacol">
+     <div class="qawrap">
+       <p class="q">What are the available payment options?</p>
+       <p class="a">You can pay with Visa, Mastercard, American Express, Discover, JCB or PayPal. The billing period starts on the day you upgrade to a paying plan. You will be billed in advance on a monthly or annual basis. Payments are handled securely by FastSpring.</p>
+    
+     </div>  
+     <div class="qawrap">
+       <p class="q">What browsers do you support?</p>
+       <p class="a">Wireframe.cc Premium supports the latest versions of Chrome, Safari, and Firefox. It may be probably possible to use it in other browsers, but we can't guarantee it.</p>
+     </div>  
+     <div class="qawrap">
+       <p class="q">What if I have more questions?</p>
+       <p class="a">If you have any further questions about the premium features, pricing, or the sign-up process you can email us at <a href="mailto:info@wireframe.cc">info@wireframe.cc</a></p>
+     </div>  
+   </div>  
+  </div>
+</div>
+
+ <nav class="breadcrumb">
+  <a target="_blank" href="https://wireframe.cc/docs">Docs</a> / 
+  <a target="_blank" href="https://wireframe.cc/terms.html">Terms</a> / 
+  <a target="_blank" href="https://wireframe.cc/privacy.html">Privacy</a> /
+  <a target="_blank" href="https://wireframe.cc/contact">Contact</a> 
+  /  © 2017 wireframe.cc
+ </nav> 
+
+    </article>
+
+  </div>
+</div>
+<div class="cta-btn"></div>
+</div>
+<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 990px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 198px;"></div></div></div>
+
+  <div class="container ps-container ps-theme-default ps-active-y" data-ps-id="d7b23741-b158-cef4-3a43-50aadde43eea">
+   
+   
+
+    
+    <div class="supercanvas ui-boxer" style="width: 1324px; height: 1516px;"><div id="canvas-wrap" class="browser-wrap ui-draggable ui-resizable" snappy="0" data-grid="graph" style="left: 448px; margin-left: 0px; width: 1024px; height: 1216px; position: absolute; top: 62px;"><span id="browser"><span></span></span><div id="canvas" data-page-width="1024" data-page-height="1216" style="width: 100%; height: 100%;">
+<div id="gridcol" style="display: none;">
+<div class="col" id="col1"></div>
+<div class="col" id="col2"></div>
+<div class="col" id="col3"></div>
+<div class="col" id="col4"></div>
+<div class="col" id="col5"></div>
+<div class="col" id="col6"></div>
+<div class="col" id="col7"></div>
+<div class="col" id="col8"></div>
+<div class="col" id="col9"></div>
+<div class="col" id="col10"></div>
+<div class="col" id="col11"></div>
+<div class="col" id="col12"></div>
+</div>
+<div id="grid-dot" style="width: 100%; height: 100%; overflow: hidden; display: none;">
+  <svg id="svg-grid" zoomAndPan="disable" currentscale="2" xmlns="http://www.w3.org/2000/svg" version="1.2" width="3000" height="12000">
+
+    <pattern id="dot-pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+      <g id="sharp">
+        <circle class="svgdot" cx="19.5" cy="19.5" r="0.75" stroke="#666" style="fill: #bfbfbf;stroke: transparent;"></circle>
+        <circle class="svgdot" cx="19.5" cy="19.5" r="0.75" stroke="#666" style="fill: #bfbfbf;stroke: transparent;"></circle>
+
+        <circle class="svgdot" cx="19.5" cy="19.5" r="0.75" stroke="#666" style="fill: #bfbfbf;stroke: transparent;"></circle>
+        <circle class="svgdot" cx="19.5" cy="19.5" r="0.75" stroke="#666" style="fill: #bfbfbf;stroke: transparent;"></circle>
+      </g>
+    </pattern>
+
+    <rect id="grid" fill="url(#dot-pattern)" width="3000" height="12000"></rect>
+  </svg></div>
+<div id="grid-div" style="width:100%;height:100%;overflow:hidden;">
+<svg id="svg-grid" zoomAndPan="disable" currentscale="2" xmlns="http://www.w3.org/2000/svg" version="1.2" width="3000" height="12000"><pattern id="grid-pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+<g id="sharp" transform="translate(-0.5,-0.5)">
+<line class="lineH" x1="0" x2="100" y1="20" y2="20" stroke="#eee" stroke-width="1"></line>
+<line class="lineH" x1="0" x2="100" y1="40" y2="40" stroke="#eee" stroke-width="1"></line>
+<line class="lineH" x1="0" x2="100" y1="60" y2="60" stroke="#eee" stroke-width="1"></line>
+<line class="lineH" x1="0" x2="100" y1="80" y2="80" stroke="#eee" stroke-width="1"></line>
+
+<line class="lineV" x1="20" x2="20" y1="0" y2="100" stroke="#eee" stroke-width="1"></line>
+<line class="lineV" x1="40" x2="40" y1="0" y2="100" stroke="#eee" stroke-width="1"></line>
+<line class="lineV" x1="60" x2="60" y1="0" y2="100" stroke="#eee" stroke-width="1"></line>
+<line class="lineV" x1="80" x2="80" y1="0" y2="100" stroke="#eee" stroke-width="1"></line>
+
+<line class="lineV" x1="100" x2="100" y1="0" y2="100" stroke="#e1e1e1" stroke-width="1"></line>
+<line class="lineH" x1="0" x2="100" y1="100" y2="100" stroke="#e1e1e1" stroke-width="1"></line>
+</g></pattern><rect id="grid" fill="url(#grid-pattern)" width="3000" height="12000"></rect></svg></div><div id="guide-h" class="guide visible" style="display: block; transform: translateY(56px);"></div><div id="guide-v" class="guide" style="display: none; transform: translateX(1023px);"></div><div class="wire ui-resizable-autohide" id="w14961064571920" style="top: 656px; left: 436px; width: 121px; height: 98px; position: absolute;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 2;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571921" style="top: 656px; left: 575px; width: 121px; height: 98px; position: absolute;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 3;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571922" style="top: 656px; left: 715px; width: 121px; height: 98px;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 4;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571923" style="top: 656px; left: 294px; width: 120px; height: 98px; position: absolute;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 5;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571924" style="top: 656px; left: 154px; width: 125px; height: 98px;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 6;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571925" style="top: 535px; left: 154px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 7;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571926" style="top: 535px; left: 294px; width: 125px; height: 102px; position: absolute;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 8;" class="wirejr box"></div></div><div class="wire locked , icon- ui-resizable-autohide" id="w14961064571927" style="top: 535px; left: 432px; width: 125px; height: 102px; position: absolute;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 9;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571928" style="top: 535px; left: 575px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 10;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961064571929" style="top: 535px; left: 711px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 11;" class="wirejr box"></div></div><div class="wire hastext text20 ui-resizable-autohide" id="w149610645719210" style="top: 499px; left: 157px; width: 352px; height: 21px; z-index: auto;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 12; height: auto; width: 350px;" class="wirejr headlinetxt textnew text20 text-arimo"><span class="text"><div class="textme thelatest" contenteditable="false" spellcheck="false">Shop by Department:</div></span></div></div><div class="wire locked , icon- ui-resizable-autohide" id="w149610645719211" style="top: 356px; left: 157px; width: 679px; height: 123px;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 13;" class="wirejr box"></div></div><div class="wire locked , icon- ui-resizable-autohide" id="w149610645719212" style="top: 154px; left: 160px; width: 320px; height: 189px;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 14;" class="wirejr box"></div></div><div class="wire , locked icon- ui-resizable-autohide" id="w149610645719213" style="top: 156px; left: 493px; width: 341px; height: 189px;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(170, 170, 170); color: rgb(68, 68, 68); background: white; z-index: 15;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w1496106554027" style="top: 779px; left: 156px; width: 680px; height: 124px; position: absolute;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 17;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961066072540" style="top: 961px; left: 155px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 18;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961066072541" style="top: 961px; left: 295px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 19;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961066072542" style="top: 961px; left: 433px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 20;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961066072543" style="top: 961px; left: 576px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 21;" class="wirejr box"></div></div><div class="wire ui-resizable-autohide" id="w14961066072544" style="top: 961px; left: 712px; width: 125px; height: 102px; position: absolute;"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 22;" class="wirejr box"></div></div><div class="wire hastext text20 ui-resizable-autohide" id="w14961066574340" style="top: 921px; left: 159px; width: 352px; height: 21px; z-index: auto;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 23; height: auto; width: 350px;" class="wirejr headlinetxt textnew text20 text-arimo"><span class="text"><div class="textme thelatest" contenteditable="false" spellcheck="false">Deals of the Week:</div></span></div></div><div class="wire locked , icon- ui-resizable-autohide" id="w1496106708912" style="top: 1076px; left: 157px; width: 682px; height: 118px; position: absolute; z-index: auto;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background: white; z-index: 24;" class="wirejr box"></div></div><div class="wire hastext text20" id="w1496108286803" style="top: 1034px; left: 34px; width: 74px; height: 21px; z-index: auto;"><div style="border-width: 4px; border-color: rgb(119, 119, 119); color: rgb(119, 119, 119); background: white; z-index: 25; height: auto; width: 66px;" class="wirejr headlinetxt textnew text20 text-arimo"><span class="text"><div class="textme thelatest" contenteditable="false" spellcheck="false">NAV</div></span></div></div><div class="wire locked , icon- ui-resizable-autohide" id="w1496108479619" style="top: 24px; left: 164px; width: 672px; height: 121px;" aria-disabled="false"><div style="border-width: 1px; border-color: rgb(17, 17, 17); color: rgb(119, 119, 119); background: rgb(255, 255, 255); z-index: 27; box-sizing: content-box; width: 670px; height: 119px;" class="wirejr box"></div></div><div class="wire hastext text20 ui-draggable ui-resizable ui-resizable-autohide" id="w1496108527760" style="top: 24px; left: 161px; width: 672px; height: 288px; z-index: auto;" aria-disabled="false" data-snap-mark-h="c"><div style="border-width: 4px; border-color: rgb(119, 119, 119); color: rgb(119, 119, 119); background: white; z-index: 28; height: auto; width: 664px;" class="wirejr headlinetxt textnew text20 text-arimo"><span class="text" style="height: 288px; color: rgb(255, 99, 71);"><div class="textme thelatest" contenteditable="false" spellcheck="false" style="text-align: center; font-size: 28px;">NAV<div><br></div></div></span></div><div class="ui-resizable-handle ui-resizable-e" unselectable="on" style="display: none;"></div><div class="ui-resizable-handle ui-resizable-w" unselectable="on" style="display: none;"></div></div><div class="wire hastext text20 ui-draggable ui-resizable ui-resizable-autohide" id="w1496108572714" style="top: 154px; left: 160px; width: 320px; height: 32px; z-index: auto;"><div style="border-width: 4px; border-color: rgb(119, 119, 119); color: rgb(119, 119, 119); background: white; z-index: 29; height: auto; width: 312px;" class="wirejr headlinetxt textnew text20 text-arimo"><span class="text" style="height: 32px; color: rgb(255, 99, 71);"><div class="textme thelatest" contenteditable="false" spellcheck="false" style="font-size: 28px; text-align: center;">HEADER</div></span></div><div class="ui-resizable-handle ui-resizable-e" unselectable="on" style="display: none;"></div><div class="ui-resizable-handle ui-resizable-w" unselectable="on" style="display: none;"></div></div><div class="wire hastext text20 ui-resizable-autohide" id="w1496108698557" style="top: 356px; left: 161px; width: 673px; height: 256px; z-index: auto; position: absolute;" aria-disabled="false"><div style="border-width: 4px; border-color: rgb(119, 119, 119); color: rgb(119, 119, 119); background: white; z-index: 30; height: auto; width: 664px;" class="wirejr headlinetxt textnew text20 text-arimo"><span class="text" style="height: 256px; color: rgb(255, 99, 71);"><div class="textme thelatest" contenteditable="false" spellcheck="false" style="text-align: center; font-size: 28px;">SECTION X 3</div></span></div></div><div class="wire hastext text20" id="w1496108766278" style="top: 1076px; left: 155px; width: 682px; height: 256px; z-index: auto;"><div style="border-width: 4px; border-color: rgb(119, 119, 119); color: rgb(119, 119, 119); background: white; z-index: 31; height: auto; width: 674px;" class="wirejr headlinetxt textnew text20 text-arimo"><span class="text" style="height: 256px;"><div class="textme thelatest" contenteditable="false" spellcheck="false" style="text-align: center; font-size: 28px;">FOOTER</div></span></div></div><div class="brandnew blank" style="background: rgba(31, 51, 71, 0.4); z-index: 32; position: absolute; left: 0px; top: 56px; width: 0px; height: 32px;"></div></div><div class="ui-resizable-handle ui-resizable-s" unselectable="on"></div><div class="ui-resizable-handle ui-resizable-e" unselectable="on"></div></div></div>
+  
+      <!-- ///wirepanel START -->
+
+      <div id="wirepanel" class="wirepanel" style="top: 78px; left: 399.5px; display: block;">
+
+        <div id="icons" style="display: block;">
+
+          <div class="icon rect horizontal vertical highlightable" elementtype="box" data-hint="Box"></div>
+          <div class="icon rect horizontal vertical highlightable" elementtype="roundbox" data-hint="Rounded Box"></div>
+          <div class="icon rect highlightable" elementtype="elipse" data-hint="Ellipse/Circle" style="display: none;"></div>
+          <div class="icon rect highlightable" elementtype="image" data-hint="Image" style="display: none;"><i class="icon-picture"></i></div>
+          <div class="icon rect highlightable" elementtype="paragraph" data-hint="Paragraph" style="display: none;"><i class="icon-align-left"></i></div>
+          <div class="icon rect highlightable" elementtype="list" data-hint="List" style="display: none;"><i class="icon-list"></i></div>
+          <div class="icon highlightable" elementtype="radiobtn" data-hint="Radio button" style="display: none;"></div>
+          <div class="icon highlightable" elementtype="checkbox" data-hint="Checkbox" style="display: none;"></div>
+          <div class="icon horizontal highlightable" elementtype="line_hor" data-hint="Line" style="display: none;"></div>
+          <div class="icon vertical highlightable" elementtype="line_vert" data-hint="Line" style="display: block;"></div>
+          <div class="icon horizontal highlightable" elementtype="slider" data-hint="Slider" style="display: none;"></div>
+          <div class="icon horizontal highlightable" elementtype="progressbar" data-hint="Progress bar" style="display: none;"></div>
+
+          <div class="icon horizontal highlightable" elementtype="combobox" data-hint="Combo box" style="display: none;"> <i class="icon-caret-down"></i> </div>
+          <div class="icon horizontal highlightable" elementtype="scrollh" data-hint="Scrollbar (horizontal)" style="display: none;"> <i class="icon-caret-left" style="position:absolute;left:-5px;"></i> <i class="icon-caret-right" style="position:absolute;left:3px;"></i></div>
+          <div class="icon vertical highlightable" elementtype="scrollv" data-hint="Scrollbar (vertical)" style="display: block;"> <i class="icon-caret-up" style="position:absolute;top:-5px;"></i> <i class="icon-caret-down" style="position:absolute;top:3px;"></i></div>
+          <div class="icon rect horizontal highlightable" elementtype="headline" data-hint="Headline" style="display: none;">H</div>
+          <div class="icon rect horizontal highlightable" elementtype="headlinetxt" data-hint="Text" style="display: none;">T</div>
+          <div id="textinput" class="icon horizontal rect highlightable " elementtype="textinput" data-hint="Text input" style="display: none;"></div>
+          <div id="annotate" class="icon horizontal rect vertical highlightable" elementtype="annotate" data-hint="Add annotation" style="margin-top:-2px;"><i class="icon-comments-alt"></i></div>
+        </div>
+
+        
+
+        <div id="strokes" style="display: none;">
+          <div class="stroke_width strokeweight highlightable" data-hint="Stroke width: thin" stroke="1"><span class="line onepx "></span></div>
+          <div class="stroke_width strokeweight highlightable" data-hint="Stroke width: medium" stroke="2"><span class="line twopx "></span></div>
+          <div class="stroke_width strokeweight highlightable" data-hint="Stroke width: thick" stroke="4"><span class="line fourpx "></span></div>
+        </div>
+
+        <div id="textalign" style="display: none;">
+          <div id="alignleft" class="highlightable text-edit-btn"><i class="icon-align-left" data-hint="Align left"></i></div>
+          <div id="aligncenter" class="highlightable text-edit-btn"><i class="icon-align-center" data-hint="Center"></i></div>
+          <div id="alignright" class="highlightable text-edit-btn"><i class="icon-align-right" data-hint="Aligne right"></i></div>
+          <div id="alignjustify" class="highlightable text-edit-btn"><i class="icon-align-justify" data-hint="Justify"></i></div>
+        </div>
+        <div id="textsize" style="display: none;">
+          <div id="font-s" class="highlightable text-edit-btn" style="font-size:9px;margin-top:8px;" data-hint="Small font"><i class="icon-font"></i></div>
+          <div id="font-m" class="highlightable text-edit-btn" style="font-size:13px;margin-top:4px;" data-hint="Medium font"><i class="icon-font"></i></div>
+          <div id="font-l" class="highlightable text-edit-btn" style="font-size:18px;margin-top:-1px;" data-hint="Large font"><i class="icon-font"></i></div>
+        </div>
+        <div style="display: none;">
+
+
+          <div id="show-border" class="highlightable" data-hint="Change to fill color" style="display: none;">
+            <span></span>
+          </div>
+          <div id="show-bg" style="display: none;" class="highlightable" data-hint="Change to background color">
+            <span></span>
+          </div>
+
+
+
+
+
+
+          <div id="colorpickers" style="display: block;">
+           <div class="colorpicker nocolor" data-hint="Transparent"></div>
+           <div class="colorpicker rect" style="background:rgb(255,255,255);" data-hint="Fill color: white"></div>
+           <div class="colorpicker rect" style="background:rgb(221,221,221);" data-hint="Fill color: #ddd"></div>
+           <div class="colorpicker rect" style="background:rgb(170,170,170);" data-hint="Fill color: #aaa"></div>
+           <div class="colorpicker rect" style="background:rgb(119,119,119);" data-hint="Fill color: #777"></div>
+           <div class="colorpicker rect" style="background:rgb(68,68,68);" data-hint="Fill color: #444"></div>
+           <div class="colorpicker rect" style="background:rgb(17,17,17);" data-hint="Fill color: #111"></div>
+           <div class="colorpicker rect" style="background:tomato;" data-hint="Fill color: tomato"></div>
+         </div>
+
+         <div id="bordercolors" style="display: none;">
+
+          <div class="brcolor noborder" style="border-color:transparent;" data-hint="Border color: transparent"></div>
+          <div class="brcolor" style="border-color:#fff;" data-hint="Border color: #fff"></div>
+          <div class="brcolor" style="border-color:#ddd;" data-hint="Border color: #ddd"></div>
+          <div class="brcolor" style="border-color:#aaa;" data-hint="Border color: #aaa"></div>
+          <div class="brcolor" style="border-color:#777;" data-hint="Border color: #777"></div>
+          <div class="brcolor" style="border-color:#444;" data-hint="Border color: #444"></div>
+          <div class="brcolor" style="border-color:#111;" data-hint="Border color: #111"></div>
+          <div class="brcolor" style="border-color:tomato;" data-hint="Border color: tomato"></div>
+
+        </div>
+      </div>
+
+
+    </div>
+    <!-- ///wirepanel END -->
+  
+<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 945px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 589px;"></div></div></div>
+<!-- /container end -->
+
+<div class="overlay"></div>
+
+    <div id="top" class="free-version">
+      <div class="left topico device-wrap" data-intro="More templates" data-position="bottom">
+
+        <span class="device-window" data-template-btn="browser-wrap"><i class="icon-window"></i></span>
+        <span class="device-tablet" data-template-btn="mobile tablet"><i class="icon-tablet"></i></span>
+        <span class="device-mobile" data-template-btn="mobile"><i class="icon-mobile"></i></span>
+        <span class="device-mobile-landscp" data-template-btn="mobile-landscape"><i class="icon-mobile"></i></span>
+      </div>
+      <div id="logo" class="left" style="padding:0;">
+        <a href="http://wireframe.cc/" target="_blank">wireframe<span style="color: tomato;">|</span>cc</a>
+
+      </div>
+
+     
+
+      <div class="controls">
+        <div class="left ">
+          <div id="undo" class="topicon left" data-hint="Undo (Ctrl+Z)"><span><i class="icon-reply"></i></span><p>undo</p></div>
+          <div id="redo" class="topicon left" data-hint="Redo (Ctrl+Y)"><span><i class="icon-share-alt"></i></span><p>redo</p></div>
+        </div>
+        <div class="left copypaste" data-intro="Copy / paste between wireframes &lt;span class=&#39;better&#39;&gt;Better&lt;/span&gt;" data-position="bottom">
+          <div id="copy" class="topicon left" data-hint="Copy selected elements (Ctrl+C)"><span><i class="icon-copy"></i></span><p>copy</p></div>
+          <div id="cut" class="topicon left" data-hint="Cut selected elements (Ctrl+X)"><span><i class="icon-cut"></i></span><p>cut</p></div>
+          <div id="paste" class="topicon left" data-hint="Paste selected elements (Ctrl+V)"><span><i class="icon-paste"></i></span><p>paste</p></div>
+          <div id="del" class="topicon left" data-hint="Delete selected elements (Del/Backspace)"><span><i class="icon-remove"></i></span><p>delete</p></div>
+        </div>
+        <div class="left" data-intro="Aligning and grouping &lt;span class=&#39;intronew&#39;&gt;New&lt;/span&gt;" data-position="bottom">
+          <div id="lock" class="topicon left" data-hint="Lock / unlock selected element (Ctrl+L)"><span class="icon-lock"></span></div>
+
+          <div id="arrange" class="topicon left" data-hint="Arrange elements"><span><i class="arrange-icon custom-icon"></i></span></div>
+
+          <span id="arrange-icons">
+<div id="front" class="topicon inner-btn left" data-hint="Bring to front">
+              <span><i class="front-icon custom-icon"></i></span>
+            </div><div id="forward" class="topicon inner-btn left" data-hint="Bring forward">
+            <span><i class="forward-icon custom-icon"></i></span>
+          </div>
+          <div id="back" class="topicon inner-btn left" data-hint="Send to back">
+            <span><i class="back-icon custom-icon"></i></span>
+          </div>
+          <div id="backward" class="topicon inner-btn left" data-hint="Send backward">
+            <span><i class="backward-icon custom-icon"></i></span>
+          </div>
+        </span>
+
+        <div id="align" class="topicon left" data-hint="Align elements"><span><i class="group-align custom-icon"></i></span><p>Align</p></div>
+
+        <span class="align-icons">
+          <div id="align-top" class="topicon inner-btn left" data-hint="Align Top"><span><i class="align-icon align-top custom-icon"></i></span><p>Align Top</p></div>
+          <div id="align-left" class="topicon inner-btn left" data-hint="Align Left"><span><i class="align-left  custom-icon"></i></span><p>Align Left</p></div>
+          <div id="align-bottom" class="topicon inner-btn left" data-hint="Align Bottom"><span><i class=" align-icon align-bottom custom-icon"></i></span><p>Align Bottom</p></div>
+          <div id="align-right" class="topicon inner-btn left" data-hint="Align Right"><span><i class="align-right align-icon  custom-icon"></i></span><p>Align Right</p></div>
+
+          <div id="align-center" class="topicon inner-btn left" data-hint="Align Center"><span><i class=" align-icon align-center custom-icon"></i></span><p>Align Center</p></div>
+          <div id="align-middle" class="topicon inner-btn left" data-hint="Align Middle"><span><i class="align-icon align-middle custom-icon"></i></span><p>Align Middle</p></div>
+          <div id="dist-v" class="topicon inner-btn left" data-hint="Distribute Vertically"><span><i class="align-icon dist-v custom-icon"></i></span><p>Distribute Vertically</p></div>
+          <div id="dist-h" class="topicon inner-btn left" data-hint="Distribute Horizontally"><span><i class="align-icon dist-h custom-icon"></i></span><p>Distribute Horizontally</p></div>
+        </span>
+
+        <div id="group" class="topicon left" data-hint="Group elements"><span><i class="group-icon custom-icon"></i></span></div>
+      </div>
+
+
+    </div><!-- controls end -->
+
+
+    
+
+ <span class="cta-top"><a href="https://wireframe.cc/pro/register.php" target="_blank">Sign Up</a></span>
+ <div id="links" class="linksmin">
+   <div class="linksdown "><span><i class="icon-menu"></i></span></div>
+
+   <div class="linksdownwrap">       
+     <div class="linkwrap "><a href="https://wireframe.cc/pro/login.php">login</a></div>
+     <div class="linkwrap "><a target="_blank" href="https://wireframe.cc/contact">contact</a></div>
+     <div class="linkwrap "><a href="https://wireframe.cc/docs" target="_blank">docs</a></div>
+     <div class="linkwrap  about" id="about-btn">about</div>
+     </div>
+
+   </div>
+
+      <div class="settings topicon single-icon right controls" data-hint="Settings"><span><i class="icon-cogs"></i></span></div>
+      <div class="topicon right withlabel  controls single-icon" id="savefree" data-hint="Save" data-intro="SSL encryption" data-position="bottom"><span><i class="icon-floppy"></i></span><p>Save</p></div>
+      <span class="right controls">
+        <div id="hide-annotation" class="topicon left single-icon" data-hint="Hide annotations"><span><i class="icon-comment"></i></span></div>
+      </span>
+      <span class="right controls">
+        <div id="show-annotation" class="topicon left single-icon" style="display:none;" data-hint="Show annotations"><span><i class="icon-comment-alt"></i></span></div>
+      </span>
+      
+    </div>
+
+    <div class="options ps-container ps-theme-default" data-ps-id="5ae96fa4-d7e5-c76b-5f0a-990045bb6843">
+     <div class="optitem check "><input type="checkbox" name="check" id="show-grid"><label for="show-grid"></label> <span>Show grid</span>
+      <div class="grid-type-div">
+        
+        <label class="dropdown">
+          <select id="grid-type">
+            <option selected="" value="graph">Graph paper</option>
+            <option value="dots">Dots</option>
+            <!-- <option  value='col' >Columns</option> -->
+          </select>
+        </label>
+      </div>
+     </div>
+     <!-- <div class="optitem">
+      Grid type
+      
+     </div> -->
+     <div class="optitem check "><input type="checkbox" name="check" id="show-columns"><label for="show-columns"></label> <span>Show columns</span></div>
+
+     <div class="optitem check "><input type="checkbox" name="check" id="snap-to-grid"><label for="snap-to-grid"></label> <span>Snap to grid</span></div>
+     <div class=" check  optitem">
+      <input type="checkbox" name="check" id="snap-to-guides" checked="yes"><label for="snap-to-guides"></label> <span>Enable smart guides:</span>
+
+      <div class=" check  optitem">
+        <input type="checkbox" name="check" id="draw-snap" checked="yes"><label for="draw-snap"></label> <span>While drawing</span>
+      </div>
+      <div class=" check  optitem">
+        <input type="checkbox" name="check" id="transform-snap" checked="yes"><label for="transform-snap"></label> <span>While transforming</span>
+      </div>
+     </div>
+     <div class="optitem "> Grid size: <span class="grid-size-val">20</span>px</div>
+     <div id="grid-slider-wrap " class="optitem">
+      <div id="grid-slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a href="https://wireframe.cc/hMzs9o#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 25%;"></a></div>
+     </div>
+     <div class="optitem">
+      Default stroke:<br>
+      <label class="dropdown">
+        <select id="def-stroke-width">
+          <option selected="" value="1">Thin</option>
+          <option value="2">Medium</option>
+          <option value="4">Thick</option>
+        </select>
+      </label>
+      <label class="dropdown">
+        <select id="def-stroke-color">
+          <option value="transparent">Transparent</option>
+          <option value="rgb(255,255,255)">white</option>
+          <option value="rgb(221,221,221)">#ddd</option>
+          <option value="rgb(170,170,170)">#aaa</option>
+          <option value="rgb(119,119,119)">#777</option>
+          <option selected="" value="rgb(68,68,68)">#444</option>
+          <option value="rgb(17,17,17)">#111</option>
+          <option value="tomato">tomato</option>
+        </select>
+      </label>
+     </div>
+
+     <div class="optitem">
+      Default fill color
+      <div class="def-bg-color">
+        <label class="dropdown">
+          <select id="def-bg-color">
+            <option value="transparent">Transparent</option>
+            <option selected="" value="rgb(255,255,255)">white</option>
+            <option value="rgb(221,221,221)">#ddd</option>
+            <option value="rgb(170,170,170)">#aaa</option>
+            <option value="rgb(119,119,119)">#777</option>
+            <option value="rgb(68,68,68)">#444</option>
+            <option value="rgb(17,17,17)">#111</option>
+            <option value="tomato">tomato</option>
+          </select>
+        </label>
+      </div>
+     </div>
+
+     <div class="optitem" style="padding-bottom: 30px;">
+      Canvas size:
+      <input type="text" id="canvas_w_val" class="input">/
+      <input type="text" id="canvas_h_val" class="input"> 
+      px
+     </div>
+    <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
+
+
+    <div class="save-wrap">
+      <span>Wireframe saved as:</span>
+      <span class="savedURL"></span>
+    </div>
+    <div class="saved" style="display: none;">Saved</div><div class="copied">Copied</div>
+
+  <div class="bottomright">
+
+    <span class="canvassize"><b>canvas</b>: 1024/1216px</span> 
+    <span class="coord"><b>X</b>: 72 <b>Y</b>: 133</span>
+    <span class="dim"><b>W</b>: 0px, <b>H</b>: 0px</span>
+  </div>
+
+
+
+
+
+
+
+   
+    
+
+    <script nonce="06683a9c056ef67608f713aa89ea65a3">
+
+    var filename = 'hMzs9o';
+    </script>
+
+
+
+    <script src="./wireframe_files/scripts.1.6.1.min.js.download"></script>
+    <script src="./wireframe_files/wireframe.2.107.5.min.js.download" type="text/javascript"></script>
+    <script nonce="06683a9c056ef67608f713aa89ea65a3">
+    if (filename!==0) {
+
+      MakeCanvasDrag();
+      // makeDrag($('.wire'));
+      makeDrag($('.aa'));
+
+    }
+    $('#about-wrap').perfectScrollbar({suppressScrollX:true});
+    $('#qa-toggle').click(function () {
+      $('#about-wrap').perfectScrollbar('update')
+    });
+    key('ctrl+s, command+s', function(e) {
+        if (!previewMode) {
+            e.preventDefault();
+            $('#savefree').click();
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var metaTag = document.createElement('meta');
+        metaTag.setAttribute('http-equiv', 'Content-Security-Policy');
+        metaTag.setAttribute('content', "script-src https: 'unsafe-eval';");
+        document.head.appendChild(metaTag);
+    });
+    </script>
+ 
+   
+    <script nonce="06683a9c056ef67608f713aa89ea65a3">
+    
+    //amplitude start
+    
+    amplitude.logEvent("Free: Main page visited", {'Name': filename ? filename : 'blank'});
+    $('#feux-play').click(function () {
+      amplitude.logEvent("Free: Demo watched");
+    });
+    $('#about-btn').click(function () {
+      amplitude.logEvent("Free: About page displayed");
+    });
+
+    $('#savefree').click(function () {
+      amplitude.logEvent("Free: Project saved", {'Name': filename});
+    });
+    //amplitude stop
+
+
+    </script>
+
+    <!-- Piwik -->
+    <script type="text/javascript" nonce="06683a9c056ef67608f713aa89ea65a3"> 
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u=(("https:" == document.location.protocol) ? "https" : "http") + "://wireframe.cc/piwik//";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 1]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+      g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+
+    </script>
+    <noscript>&lt;p&gt;&lt;img src="http://wireframe.cc/piwik/piwik.php?idsite=1" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
+    <!-- End Piwik Code -->
+
+  
+  </body></html>

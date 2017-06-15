@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans'); 
+
+
+* {
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: blue;
+	
+}
+
+header {
+	background: url("../images/stars.jpg");
+	background-size: cover;
+	border: #ff0000;
+	padding: 4em 3em;
+}
+
+nav a {
+	font-family: 'Allerta', 'Arial', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 4px;
+	padding: 0;
+	margin: 2em 2em;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	*background-color:blue;
+}
+
+.navlinks{
+	font-family: 'Allerta', 'Arial', sans-serif;
+	background-color: #ff0000;
+	color: #fff;
+	border: 3px solid white;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 1em;
+	margin: 1em 1em;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#search {
+	padding: 1em 4em 1em 1em;
+	border: 1px black solid;
+	width: 24em;
+	height: 3em;
+	text-align: left;
+	background: #fff;
+	color: #000;
+	font-weight: 700;
+	font-size: 1.5em;
+	float: right;
+}
+
+section {
+	margin: 0;
+	padding: 0;
+}
+
+#one {
+	border: 0;
+	margin: 0;
+	background-color: white;
+}
+
+#logo {
+	width: 35%;
+	padding: 0;
+	background-color: white;
+}
+
+aside {
+	background-color: #000;
+	color: #fff;
+	font-size: 3em;
+	border: 1px black solid;
+	padding: .5em 1em;
+	width: 65%;
+	float:right;
+}
+
+#two {
+	border: 0;
+	padding: 0;
+}
+
+#three {
+	background: url("../images/soccerfield2.png");
+	background-size: cover;
+}
+
+
+
+h1 {
+	font-familY: 'Crete+Round', serif;
+	font-weight: normal;
+	font-size: 6em;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	background-color: #ff0000;
+}
+
+h2, h3, h4 {
+	font-family: 'Allerta', 'Arial', sans-serif;
+
+	/*border: 1px black solid;*/
+}
+
+h2 {
+	font-size: 5em;
+	background-color: blue;
+	color: yellow;
+	border: 1em black solid;
+	vertical-align: left;
+	padding: 0 2em;
+	float: left;
+
+}
+
+h3 {
+	font-size: 2.25em;
+	background-color: orange;
+	text-align: center;
+}
+
+h4 {
+	background-color: white;
+	font-size: 1.5em;
+	padding: 0 10em;
+}
+
+#product {
+	width: 23%;
+	padding: 1% 1%;
+	margin: 1% 1%;
+	background-color: red;
+	float: left;
+}
+
+#four {
+	background-color: green;
+	color: yellow;
+	padding: 2em 19em;
+	margin: 1em 0;
+	width: 100%;
+	float: left;
+}
+
+#five {
+	background-color: orange;
+	border: 1em black solid;
+	padding: 1em 2em;
+	width: 100%;
+	float: left;
+}
+
+footer {
+	background-color: green;
+	border: 1.1em black solid;
+	padding: 1em 2em;
+	float: left;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: center;
+	margin: 20px;
+	/*background-color: #FFE2B8;*/
+	/*border: 1px black solid;*/
+	/*padding: 20px;*/
+	/*float: left;*/
+}
+
+.bigger {
+	font-size: 200%;
+}
