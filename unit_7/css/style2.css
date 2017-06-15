@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans'); 
-
-
 * {
 	padding: 0; 
 	margin: 0;
@@ -8,17 +6,18 @@
 }
 
 body {
-	background: blue;
+	background: #002868;
 	
 }
 
 header {
 	background: url("../images/stars.jpg");
 	background-size: cover;
-	border: #ff0000;
 	padding: 4em 3em;
 }
-
+nav {
+	float:left;
+}
 nav a {
 	font-family: 'Allerta', 'Arial', sans-serif;
 	font-size: 1em;
@@ -30,22 +29,15 @@ nav a {
 	border: none;
 	color: #fff;
 	text-decoration: none;
-	*background-color:blue;
+	display: inline-block;
 }
 
 .navlinks{
-	font-family: 'Allerta', 'Arial', sans-serif;
-	background-color: #ff0000;
-	color: #fff;
+	background-color: #bf0a30;
 	border: 3px solid white;
-	text-transform: uppercase;
-	font-weight: 600;
 	letter-spacing: 2px;
 	padding: 1em;
-	margin: 1em 1em;
-	text-decoration: none;
-	text-align: center;
-	width: 100%;
+	margin: 0em 1em;
 }
 
 .clearfix:after {
@@ -60,48 +52,38 @@ nav a {
 #search {
 	padding: 1em 4em 1em 1em;
 	border: 1px black solid;
-	width: 24em;
-	height: 3em;
+	/* width: 24em; */
+	/* height: 3em; */
 	text-align: left;
 	background: #fff;
 	color: #000;
 	font-weight: 700;
-	font-size: 1.5em;
+	/* font-size: 1.5em; */
 	float: right;
 }
 
-section {
-	margin: 0;
-	padding: 0;
-}
-
-#one {
-	border: 0;
-	margin: 0;
-	background-color: white;
-}
-
 #logo {
-	width: 35%;
-	padding: 0;
-	background-color: white;
+	width: 33.33%;
+	float: left;
 }
 
 aside {
-	background-color: #000;
 	color: #fff;
-	font-size: 3em;
-	border: 1px black solid;
-	padding: .5em 1em;
-	width: 65%;
-	float:right;
+	font-size: 1.5em;
+	padding: 2.5em 1em 0;
+	width: 66.66%;
+	float: left;
 }
 
 #two {
-	border: 0;
-	padding: 0;
+	background: #BF0A30;
+	color: #fff;
+	padding: 4em 0;
 }
-
+#two div {
+	width: 40em;
+	margin: auto;
+}
 #three {
 	background: url("../images/soccerfield2.png");
 	background-size: cover;
@@ -112,11 +94,7 @@ aside {
 h1 {
 	font-familY: 'Crete+Round', serif;
 	font-weight: normal;
-	font-size: 6em;
-	text-align: center;
-	color: #fff;
-	margin: 0;
-	background-color: #ff0000;
+	font-size: 4em;
 }
 
 h2, h3, h4 {
@@ -127,13 +105,7 @@ h2, h3, h4 {
 
 h2 {
 	font-size: 5em;
-	background-color: blue;
-	color: yellow;
-	border: 1em black solid;
-	vertical-align: left;
-	padding: 0 2em;
-	float: left;
-
+	/* color: yellow; */
 }
 
 h3 {
@@ -148,51 +120,60 @@ h4 {
 	padding: 0 10em;
 }
 
-#product {
+#product section {
 	width: 23%;
 	padding: 1% 1%;
 	margin: 1% 1%;
-	background-color: red;
+	background-color: #bf0a30;
 	float: left;
 }
 
 #four {
-	background-color: green;
-	color: yellow;
-	padding: 2em 19em;
+	background: url(https://static.pexels.com/photos/46792/the-ball-stadion-football-the-pitch-46792.jpeg);
+	background-size: cover;
+	background-position: bottom;
+	color: #fff;
+	padding: 8em 0;
 	margin: 1em 0;
-	width: 100%;
-	float: left;
+	/* width: 100%; */
+	/* float: left; */
 }
 
 #five {
 	background-color: orange;
-	border: 1em black solid;
+	/* border: 1em black solid; */
 	padding: 1em 2em;
-	width: 100%;
-	float: left;
+	/* width: 100%; */
+	/* float: left; */
+}
+#five img {
+	width:100%;
 }
 
 footer {
 	background-color: green;
-	border: 1.1em black solid;
+	/* border: 1.1em black solid; */
 	padding: 1em 2em;
-	float: left;
+	/* float: left; */
 }
 
-div {
-	width: 150px;
-	height: 150px;
-	border: 2px solid black;
-	display: inline-block;
-	vertical-align: center;
-	margin: 20px;
-	/*background-color: #FFE2B8;*/
-	/*border: 1px black solid;*/
-	/*padding: 20px;*/
-	/*float: left;*/
+#five div {
+	width: 20%;
+	float: left;
+	padding: .5em;
 }
 
 .bigger {
 	font-size: 200%;
+}
+.promo {
+    background: black;
+}
+
+#product {
+    width: 80em;
+    margin: auto;
+}
+#product img {
+    width: 100%;
 }
