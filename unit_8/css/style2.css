@@ -224,7 +224,7 @@ footer {
 }
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:740px){
 nav a{
 	display: inline-block;
 }
@@ -245,7 +245,7 @@ footer {
 }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
 
 nav {
 	display: none;
@@ -257,7 +257,7 @@ nav a{
 
 .navlinks{
 	margin: .5em 1em;
-	width: 86%;
+	width: 100%;
 }
 header {
 	padding: 1em 2em;
@@ -270,7 +270,12 @@ h2 {
 }
 
 #product section{
-	width: 57%;
+	width: 100%;
+	float: none;
+}
+
+#product img{
+	width: auto;
 }
 
 #section{
