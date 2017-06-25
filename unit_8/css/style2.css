@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans'); 
 * {
-	padding: 0; 
+	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	text-align: center;
-	font-size: 16px;
 }
 
 body {
 	background: #002868;
+	font-size:16px;
+	text-align:center;
 }
 
 header {
 	background: url("../images/stars.jpg");
 	background-size: cover;
-	padding: 4em 3em;
+	padding: 2em 3em;
 }
 
 nav {
@@ -23,12 +23,12 @@ nav {
 
 nav a {
 	font-family: 'Allerta', 'Arial', sans-serif;
-	font-size: 1.5em;
+	/* font-size: 1.5em; */
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 50%;
 	padding: 0;
-	margin: 2em 2em;
+	padding: 2em 2em;
 	border: none;
 	color: #fff;
 	text-decoration: none;
@@ -53,7 +53,7 @@ nav a {
 }
 
 #search {
-	padding: 1em 4em 1em 1em;
+	padding: .5em;
 	border: 1% black solid;
 	text-align: left;
 	background: #fff;
@@ -118,11 +118,12 @@ h4 {
 
 #product section {
 	width: 23%;
-	padding: 1% 1%;
+	/* padding: 1% 1%; */
 	margin: 1% 1%;
 	background-color: #bf0a30;
 	color: #ffff00;
 	float: left;
+	position: relative;
 }
 
 #four {
@@ -131,15 +132,13 @@ h4 {
 	background-position: bottom;
 	color: #fff;
 	padding: 8em 0;
-	margin: 1em 0;
+	/* margin: 1em 0; */
 	text-align: center;
 }
 
 #five {
 	background-color: #ffff00;
 	padding: 1em 2em;
-	display: inline-block;
-	float: left;
 }
 #five img {
 	width:100%;
@@ -165,7 +164,7 @@ footer {
 }
 
 #product {
-    width: 80em;
+    max-width: 80em;
     margin: auto;
 }
 #product img {
@@ -190,114 +189,91 @@ label {
 	display: inline-block;
 	display: none;
 }
+#two p {
+    font-size: 1.5em;
+    max-width: 40em;
+    margin: auto;
+    text-align: left;
+    padding: 0 1em;
+}
+
+#product a {
+    color: inherit;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(191, 10, 48, .7);
+    font-size: 2em;
+    padding: 1em;
+}
 
 @media screen and (max-width:1688px){
-.navlinks{
-	margin: .5em 1em;
-	width: 100%;
-}
+	.navlinks{
+		margin: .5em 1em;
+		width: 100%;
+	}
 
-header {
-	padding: 1em 2em;
-}
-footer {
-	padding: .5em .5em;
-}
-*{
-	font-size: 11px;
-}
+	header {
+		padding: 1em 2em;
+	}
+	footer {
+		padding: .5em .5em;
+	}
 }
 
 @media screen and (max-width:1280px){
-.navlinks{
-	margin: .5em 1em;
-	width: 40%;
-}
-header {
-	padding: 1em 2em;
-}
-footer {
-	padding: .5em .5em;
-}
-*{
-	font-size: 9px;
-}
+	.navlinks{
+		width: 40%;
+	}
 }
 
 @media screen and (max-width:740px){
-nav a{
-	display: inline-block;
-}
-.navlinks{
-	margin: .5em 1em;
-	width: 86%;
-}
-header {
-	padding: 1em 2em;
-}
-footer {
-	padding: .5em .5em;
-	display: block;
-	float: none;
-}
-*{
-	font-size: 6px;
-}
+	nav a{
+		display: inline-block;
+	}
+	.navlinks{
+		width: 86%;
+	}
+	footer {
+		display: block;
+		float: none;
+	}
 }
 
 @media screen and (max-width:500px){
+	nav {
+		display: none;
+	}
+	.navlinks{
+		width: 100%;
+	}
+	h2 {
+		font-size: 2em;
+		text-align: left;
+		padding: .5em 1em;
+	}
+	#product section{
+		width: 98%;
+		float: none;
+	}
+	#product img{
+		/* width: auto; */
+	}
 
-nav {
-	display: none;
-}
+	#section{
+		font-size: 10em;
+	}
 
-nav a{
-	display: inline-block;
-}
+	footer {
+		padding: .5em .5em;
+	}
+	label {
+		display: block;
+	}
 
-.navlinks{
-	margin: .5em 1em;
-	width: 100%;
-}
-header {
-	padding: 1em 2em;
-}
-
-h2 {
-	font-size: 4em;
-	text-align: left;
-	padding: .5em 1em;
-}
-
-#product section{
-	width: 100%;
-	float: none;
-}
-
-#product img{
-	width: auto;
-}
-
-#section{
-	font-size: 10em;
-}
-
-footer {
-	padding: .5em .5em;
-	display: block;
-	float: none;
-}
-
-*{
-	font-size: 6px;
-}
-
-label {
-	display: block;
-}
-
-#toggle:checked + nav{
-	display: block;
-}
-
+	#toggle:checked + nav{
+		display: block;
+	}
 }
