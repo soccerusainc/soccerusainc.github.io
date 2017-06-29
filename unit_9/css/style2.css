@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans'); 
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #002868;
+	font-size: 16px;
+	text-align: center;
+}
+
+header {
+	background: url("../images/Stars.jpg");
+	background-size: contain;
+	padding: 2em 3em;
+}
+
+nav {
+	float:left;
+}
+
+nav a {
+	font-family: 'Allerta', 'Arial', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	padding: 2em 1em;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.navlinks{
+	background-color: #bf0a30;
+	border: 3px solid white;
+	padding: 1em;
+	margin: 0em 1em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#search {
+	padding: 1em 4em 1em 1em;
+	border: 1% black solid;
+	text-align: left;
+	background: #fff;
+	color: #000;
+	font-weight: 700;
+	float: right;
+}
+
+#logo {
+	width: 33.33%;
+	float: left;
+}
+
+aside {
+	color: #fff;
+	/*font-size: 1.5em;*/
+	padding: 2.5em 1em 0;
+	width: 66.66%;
+	float: left;
+}
+
+#one p {
+	font-size: 2em;
+}
+
+#two p {
+	font-size: 1.5em;
+	margin: 1em 12em;
+}
+
+#two {
+	background: #BF0A30;
+	color: #fff;
+	padding: 1em 0;
+}
+
+#two div {
+	width: 40em;
+	margin: auto;
+}
+
+#three {
+	background: url("../images/soccerfield2.png");
+	background-size: cover;
+}
+
+h1 {
+	font-familY: 'Crete+Round', serif;
+	font-weight: normal;
+	font-size: 4em;
+	text-align: center;
+}
+
+h2, h3, h4 {
+	font-family: 'Allerta', 'Arial', sans-serif;
+}
+
+h2 {
+	font-size: 5em;
+	color: yellow;
+}
+
+.version-one {
+	color: yellow;
+}
+
+.version-two {
+	color: white;
+}
+
+.version-three {
+	color: black;
+}
+
+h3 {
+	font-size: 2.25em;
+	background-color: orange;
+	text-align: center;
+}
+
+h4 {
+	background-color: white;
+	font-size: 1.5em;
+	padding: 0 10em;
+}
+
+#product section {
+	width: 23%;
+	padding: 1% 1%;
+	margin: 1% 1%;
+	background-color: #bf0a30;
+	color: #ffff00;
+	float: left;
+}
+
+#four {
+	background: url(https://static.pexels.com/photos/46792/the-ball-stadion-football-the-pitch-46792.jpeg);
+	background-size: cover;
+	background-position: bottom;
+	color: #fff;
+	padding: 8em 0;
+	margin: 1em 0;
+	text-align: center;
+}
+
+#five {
+	background-color: #ffff00;
+	padding: 1em 2em;
+	display: inline-block;
+	float: left;
+}
+#five img {
+	width:100%;
+}
+
+footer {
+	background-color: green;
+	padding: 1em 2em;
+}
+
+#five div {
+	width: 20%;
+	float: left;
+	padding: .5em;
+}
+
+.bigger {
+	font-size: 200%;
+}
+
+.promo {
+    background: black;
+}
+
+#product {
+    width: 80em;
+    margin: auto;
+}
+#product img {
+    width: 100%;
+}
+
+#toggle{
+	display: none;
+}
+
+label {
+	font-family: 'Allerta', 'Arial', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 50%;
+	padding: 0;
+	margin: 2em 2em;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	display: none;
+}
+
+@media screen and (max-width:1688px){
+.navlinks{
+	margin: .5em 1em;
+	width: 100%;
+}
+
+header {
+	padding: 1em 2em;
+}
+footer {
+	padding: .5em .5em;
+}
+*{
+	font-size: 11px;
+}
+}
+
+@media screen and (max-width:1280px){
+.navlinks{
+	margin: .5em 1em;
+	width: 40%;
+}
+header {
+	padding: 1em 2em;
+}
+footer {
+	padding: .5em .5em;
+}
+*{
+	font-size: 9px;
+}
+}
+
+@media screen and (max-width:740px){
+nav a{
+	display: inline-block;
+}
+.navlinks{
+	margin: .5em 1em;
+	width: 86%;
+}
+header {
+	padding: 1em 2em;
+}
+footer {
+	padding: .5em .5em;
+	display: block;
+	float: none;
+}
+*{
+	font-size: 6px;
+}
+}
+
+@media screen and (max-width:500px){
+
+nav {
+	display: none;
+}
+
+nav a{
+	display: inline-block;
+}
+
+.navlinks{
+	margin: .5em 1em;
+	width: 100%;
+}
+header {
+	padding: 1em 2em;
+}
+
+h2 {
+	font-size: 4em;
+	text-align: left;
+	padding: .5em 1em;
+}
+
+#product section{
+	width: 100%;
+	float: none;
+}
+
+#product img{
+	width: auto;
+}
+
+#section{
+	font-size: 10em;
+}
+
+footer {
+	padding: .5em .5em;
+	display: block;
+	float: none;
+}
+
+*{
+	font-size: 6px;
+}
+
+label {
+	display: block;
+}
+
+#toggle:checked + nav{
+	display: block;
+}
+
+}
